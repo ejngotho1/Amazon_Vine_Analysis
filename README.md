@@ -9,3 +9,8 @@ Using your knowledge of the cloud ETL process, you’ll create an AWS RDS databa
 ![image](https://user-images.githubusercontent.com/57301554/121820089-71986a80-cc56-11eb-8170-f910a14a1b4d.png)
 
 ![image](https://user-images.githubusercontent.com/57301554/121820205-3fd3d380-cc57-11eb-9054-0f6c88af4b4c.png)
+
+
+## Dataset for Analysis
+
+![image](https://user-images.githubusercontent.com/57301554/121820264-89242300-cc57-11eb-8339-2a57d043e28e.png)
