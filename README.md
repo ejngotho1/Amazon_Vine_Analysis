@@ -37,6 +37,16 @@ Using your knowledge of the cloud ETL process, you’ll create an AWS RDS databa
 
 ![image](https://user-images.githubusercontent.com/57301554/121822062-9db9e880-cc62-11eb-981e-a345736884c0.png)
 
+### Loading the DataFrames into pgAdmin
+- Make the connection to your AWS RDS instance.
+- Load the DataFrames that correspond to tables in pgAdmin.
+- In pgAdmin, run a query to check that the tables have been populated.
+
+![image](https://user-images.githubusercontent.com/57301554/121822745-4cabf380-cc66-11eb-82c1-7116d249395c.png)
+
+![image](https://user-images.githubusercontent.com/57301554/121822779-80871900-cc66-11eb-9370-489f385c194f.png)
+
+
 
 
 
