@@ -6,6 +6,30 @@ The Amazon Vine program is a service that allows manufacturers and publishers to
 ### Deliverable 1 
 Using your knowledge of the cloud ETL process, you’ll create an AWS RDS database with tables in pgAdmin, pick a dataset from the Amazon Review datasets and extract the dataset into a DataFrame. Transform the DataFrame into four separate DataFrames that match the table schema in pgAdmin. Then upload the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been uploaded.
 
+### code to create tables
+
+-- Create Active User Table
+
+CREATE TABLE active_user (
+ id INT PRIMARY KEY NOT NULL,
+ first_name TEXT,
+ last_name TEXT,
+ username TEXT
+);
+
+CREATE TABLE billing_info (
+ billing_id INT PRIMARY KEY NOT NULL,
+ street_address TEXT,
+ state TEXT,
+ username TEXT
+);
+
+CREATE TABLE payment_info (
+ billing_id INT PRIMARY KEY NOT NULL,
+ cc_encrypted TEXT
+);
+
+
 ![image](https://user-images.githubusercontent.com/57301554/121820089-71986a80-cc56-11eb-8170-f910a14a1b4d.png)
 
 ![image](https://user-images.githubusercontent.com/57301554/121820205-3fd3d380-cc57-11eb-9054-0f6c88af4b4c.png)
